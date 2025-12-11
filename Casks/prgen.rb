@@ -2,7 +2,7 @@
 cask "prgen" do
   desc ""
   homepage "https://github.com/lugen4ro/prgen"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -11,18 +11,18 @@ cask "prgen" do
   binary "prgen"
 
   on_macos do
-    url "https://github.com/lugen4ro/prgen/releases/download/v0.2.0/prgen_0.2.0_darwin_all.tar.gz"
-    sha256 "ba1b944a388feebc3f69672f7600e249777bf9e2b039b36cb4b819dafadea554"
+    url "https://github.com/lugen4ro/prgen/releases/download/v0.3.0/prgen_0.3.0_darwin_all.tar.gz"
+    sha256 "67c2ecd6527413af6abe833145e94d0a5b2b9511feb015c99a8ba5836ef87b4d"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/lugen4ro/prgen/releases/download/v0.2.0/prgen_0.2.0_linux_amd64.tar.gz"
-      sha256 "681e278499307629d60311ae28ab8b5aba06356e607a4d7e183fb572bae66a1f"
+      url "https://github.com/lugen4ro/prgen/releases/download/v0.3.0/prgen_0.3.0_linux_amd64.tar.gz"
+      sha256 "6eda575623a819997632db9265181e4aaa058670ccba137d60f9d1fe2202f399"
     end
     on_arm do
-      url "https://github.com/lugen4ro/prgen/releases/download/v0.2.0/prgen_0.2.0_linux_arm64.tar.gz"
-      sha256 "88072406512f72a13b380a00abe2fb2ad2eb2b9824364b02609e2f0c45e7174c"
+      url "https://github.com/lugen4ro/prgen/releases/download/v0.3.0/prgen_0.3.0_linux_arm64.tar.gz"
+      sha256 "71e0b35bcd88657bd65a615679ff1564f013ed73f1d0ec2509264f3326429bbc"
     end
   end
 
